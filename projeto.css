@@ -1,0 +1,323 @@
+body{
+    margin: 0px;
+    
+}
+.ultima-pagina{
+    float: left;
+    background-color: white;
+    width: 1361px;
+    height: 300px;
+    border: solid  3px #CCC;
+
+}
+.ultima-pagina2{
+    float: left;
+    background-color: white;
+    width: 1361px;
+    height: 80px;
+    border: solid  3px #CCC;
+
+}
+.botao-cadastrar{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.botao-preto{
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    border: solid  3px greenyellow;
+}
+.botao{
+    background-color: white ;
+    border: solid 1px greenyellow;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-family: Arial;
+}
+
+.botao:hover{
+    background-color: greenyellow;
+    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+    transition-delay: 0.1s;
+
+}
+.area{
+    height: 210px;
+    width: 100%;
+}
+
+.div-2{
+    width: 100%;
+    height: 15%;
+    background-color: #1E90FF;
+    float: left;
+}
+
+.imagem-praia{
+    width: 1367px;
+    height: 700px;
+}
+
+
+.imagem-logo{
+    width: 110px;
+    height: 100px;
+}
+.titulo-2{
+    color: white;
+    font-family: Arial;
+}
+
+.titulo{
+    color: black;
+    font-family: Arial;
+}
+.titulo-mapas{
+    color: white;
+}
+
+.a2{
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+
+}
+.a3{
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+
+}
+.a4{
+    color: white;
+    cursor: pointer;
+    font-family: Arial;
+}
+a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+    
+}
+a:hover
+{
+    color: green;
+    background: greenyellow;
+    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+    transition-delay: 1s;
+
+}
+
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,green);
+}
+a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,green);
+}
+a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, green);
+}
+a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent,green);
+}
+a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+    .botao1{
+        background-color: white;
+        cursor: pointer;
+        font-family: Arial;
+        
+    }
+    .caixa-texto{
+        background-color: white ;
+        border: solid 1px greenyellow;
+        padding-left:  20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-family: Arial;
+        
+    }
+    .logar{
+        width: 400px;  
+        height: 50px;  
+        background-color: cornsilk;
+        color: black;
+        cursor: pointer;
+        padding-left:  10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Arial;
+    
+    
+    }
+    .logar:hover{
+        background-color: greenyellow ;   
+    
+    }
+    .cada{
+        width: 400px;
+        height: 50px;
+        background-color: cornsilk;
+        cursor: pointer;
+        padding-left:  10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Arial;
+    
+    }
+    .cada:hover{
+        background-color: greenyellow;
+        
+    
+    
+    }
+    .caixa1{
+        background-color: white ;
+        border: solid 1px  #0000DD;
+        padding-left:  20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-family: Arial;
+    
+    }
+    .caixa2{
+    
+    background-color: white ;
+    border: solid 1px  #0000DD;
+    padding-left:  20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-family: Arial;
+    
+    }
+    .caixa3{
+        background-color: white ;
+        border: solid 1px  #0000DD;
+        padding-left:  20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-family: Arial;
+        
+    
+        
+    }
+    .div1{
+        width: 200px;
+        height: 200px;
+        border: 2px  #0B2F3A ;
+        color:  #0B2F3A ;
+        font-family: Arial 30px;
+        background-color: #01DFD7;
+        
+        
+    }
+    .div2{
+        background-color: #01DFD7;    
+    }
+.camisas{
+    width: 150px;
+    height: 150px;
+
+}
+.div-compras{
+    width: 150px;
+    height: 150px;
+    float: right;
+    color: black;
+    background-color: white;
+    font-size: 10px;
+    font-family: Arial;
+
+}
+.div-compras2{
+    width: 150px;
+    height: 150px;
+    float: left;
+    color: black;
+    background-color: white;
+    font-family: Arial;
+    font-size: 10px;
+
+}
+.div-compras5{
+    width: 150px;
+    height: 50px;
+    float: left;
+    color: black;
+    background-color: white;
+    font-family: Arial;
+
+}
+.Botao-comprar{
+    background-color: white;
+    border: 0px;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-family: Arial;
+
+
+}
