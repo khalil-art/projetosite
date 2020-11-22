@@ -2,25 +2,24 @@
     <head>
         <meta charset="utf-8"/>
         
-        <link  rel="stylesheet" href="projetocss/projeto.css"/>
+        <link  rel="stylesheet" href="projeto.css"/>
         
-        <script src="projeto/jquery-3.5.1.min.js"></script>
+        <script src="js/jquery-3.5.1.min.js"></script>
         
-        <script src="projeto/projeto.js"></script>
+        <script src="projeto.js"></script>
         <title>Urban Face</title>
         
     </head>
     <body>
         <div style="position: absolute; top: 9%; right: 0%">
-            <button><img src="imagens/baseline_search_black_18dp.png"></button>
-            <button><img src="imagens/baseline_login_black_18dp.png"></button>
-            <button><img src="imagens/baseline_add_shopping_cart_black_18dp.png"></button>
-            <h3></h3>
+            <button class="botao"><img src="imagens/baseline_search_black_18dp.png"></button>
+            <button class="botao"><img src="imagens/baseline_login_black_18dp.png"></button>
+            <button class="botao"><img src="imagens/baseline_add_shopping_cart_black_18dp.png"></button>
+            
         </div>
-        <div style="position: absolute; left: 38%; top: 45%;">
-            <h4 class="titulo">A vida é muito curta pra não ser aproveitada e,<br>
-                        longa demais para passar despercebida, então curta ela sem parar.</h4>
-                        <a href="#" style="position: absolute; left: 25%; top: 77%;">
+        
+        <div style="position: absolute; left: 46%; top: 70%;">
+            <a href="#" class="botao-cadastrar" style="position: absolute; left: 25%; top: 200%;">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -31,14 +30,78 @@
                     <div style="position: absolute; top: 0%; right: 40%">
                         <img src="imagens/Captura de Tela (120).png"> <br>
                     </div>
-                    <div style="position: absolute; top: 10%; right: 17%" class="opcoes">
-                        <a class="a1"> redes sociais </a>  /  <a class="a2">produtos</a> /  <a class="a3">area de depoimento para clientes</a> / <a class="a4">endereço e contato</a>
+                    <div style="position: absolute; top: 10%; right: 29%" class="opcoes">
+                        <a class="a2"> todos produtos</a> /  <a class="a3">Descontos</a> / <a class="a4">Lojas fisicas</a>
                     </div>
                     <div style="position: absolute;">
                         <img src="imagens/Captura de Tela (123).png" class="imagem-logo">
                     </div>
                     <div class="imagem-meio">
                         <img src="imagens/conheca-as-melhores-praias-de-punta-cana.jpg" class="imagem-praia">
+                        <div style="position: absolute; left: 35%; top: 45%;" class="botao-preto">
+                            <h4 class="titulo">A vida é muito curta pra não ser aproveitada e,<br>
+                                longa demais para passar despercebida, então curta ela sem parar.</h4>
+                        </div>
                     </div>
-                </body>
+                </div>
+                
+                <div class="imagem-meio">
+                    <img src="imagens/praias-brasil-sancho.jpg" class="imagem-praia">
+                </div>
+              
+                <div style="position: absolute; left: 7%; top: 141%;">
+                    <img src="imagens/camisa-de-praia-masculina-azul-manga-curta-de-botao-estampada-mar.jpg" class="" width="360" height="380">
+                </div>
+                <div style="position: absolute; right: 7%; top: 141%;">
+                    <img src="imagens/camisa-de-praia-masculina-estampada-penas-manga-curta-elegante-clube.jpg" class="" width="360" height="380">
+                </div>
+                <div style="position: absolute; left: 44%; top: 128%;">
+                    <h3 class="titulo-2">Produtos mais vendidos</h3>
+                </div>
+                <div style="position: absolute; left: 37%; top: 141%;">
+                    <img src="imagens/EBZ-0197-008_zoom1.jpg" class="" width="360" height="380">
+                    <div style="position: absolute; top: 110%; left: 31%;">
+                        <button class="botao"> ver mais opções</button>
+                    </div>
+                </div>
+                <div class="imagem-praia">
+                    <img src="imagens/melhores-praias-brasil.jpg" class="imagem-praia">
+                    <div style="position: absolute; left: 41%; top: 220%;">
+                        <h3 class="titulo-2">Demonstração dos produtos</h3>
+                      
+                    </div>
+                </div>
+                <div class="imagem-praia">
+                    <div class="imagem-meio">
+                        <div style="position: absolute; left: 0%; top: 380%;" class="ultima-pagina">
+                            <h4 class="titulo">Endereço: E Contato: Celular:99123-4222 / telefone fixo(41)2334-4552.</h4>
+                        </div>
+                        <div class="imagem-meio">
+                            <div style="position: absolute; left: 0%; top: 430%;" class="ultima-pagina2">
+                                <h4 class="titulo"> Nossas redes sociais:
+                                    <button class="botao"><img src="imagens/instagram-icone-novo_1057-2227.jpg" height="40"></button>
+                                    <button class="botao"><img src="imagens/download.png" height="40"></button>
+                                    <button class="botao"><img src="imagens/download (1).png" height="40"></button>
+                                    <button class="botao"><img src="imagens/baseline_facebook_black_18dp.png" height="40"></button>
+                                    </h4>
+                            </div>
+                            <div class="imagem-meio">
+                                <div style="position: absolute; left: 0%; top: 330%;" class="ultima-pagina">
+                                    <h4 class="titulo">Área para depoimento de clientes:<textarea  placeholder="
+                                        o que você é e e oque você faz ?
+                                                                                                                
+                                        qual o problema que você teve? alguns dos nossos atendentes onlines ajudaram você?
+                                                                                                                
+                                        relate quais os benefícios ou a transformação que você obteve ao contratar ou comprar nossos produto?
+                                                                                                                
+                                        diga se recomendaria ou não a nossa empresa ?"
+                                        class="area"></textarea>
+                                        <button class="botao">Envie seu comentario</button></h4>
+                                    </div>
+                    <img src="imagens/conheca-sete-praias-de-aracruz-1280x720.jpg" class="imagem-praia">
+                    <div style="position: absolute; left: 29%; top: 235%;">
+                        <iframe style="position: absolute; right: 0%; left: -65%; top: 235%" width="600" height="400" src="https://www.youtube.com/embed/1Ul5JJJ13u8" frameborder="1"</iframe><br>
+                          
+                        </div>
+            </body>     
 </html>
